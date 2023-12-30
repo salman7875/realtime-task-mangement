@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  border-bottom: 1px solid rgb(234 179 8);
+}
+
+.active-sidebar {
+  background-color: rgb(17 24 39);
+}
